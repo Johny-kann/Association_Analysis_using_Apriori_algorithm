@@ -1,0 +1,176 @@
+Mar 12, 2015 1:20:34 AM com.data_mining.logic.CommonLogics settingFiles
+INFO: Setting file Input/attributes.txt file constant Input/attributes.txt
+Mar 12, 2015 1:20:34 AM com.data_mining.logic.CommonLogics settingFiles
+INFO: Setting file Input/train-records.txt file constant Input/train-records.txt
+Mar 12, 2015 1:20:34 AM com.data_mining.logic.CommonLogics settingFiles
+INFO: Setting file Output/Results.txt file constant Output/Results.txt
+Mar 12, 2015 1:20:34 AM com.data_mining.logic.CommonLogics settingFiles
+INFO: Setting file Output/Items-Rules.txt file constant Output/ItemsAndRules.txt
+Mar 12, 2015 1:20:34 AM com.data_mining.file_readers.TextFileReader resetReader
+INFO: Going to read file Input/attributes.txt
+Mar 12, 2015 1:20:34 AM com.data_mining.file_readers.TextFileReader resetReader
+INFO: Going to read file Input/attributes.txt
+Mar 12, 2015 1:20:34 AM com.data_mining.file_readers.TextFileReader resetReader
+INFO: Going to read file Input/train-records.txt
+Mar 12, 2015 1:20:34 AM com.data_mining.file_readers.TextFileReader resetReader
+INFO: Going to read file Input/train-records.txt
+Mar 12, 2015 1:20:34 AM com.data_mining.logic.AssociationLogics generateFrequentSetForK
+INFO: Generating CK
+Mar 12, 2015 1:20:34 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is2 not equal1CandidateItemSet
+Mar 12, 2015 1:20:34 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is2 not equal1CandidateItemSet
+Mar 12, 2015 1:20:34 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is2 not equal1CandidateItemSet
+Mar 12, 2015 1:20:34 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is2 not equal1CandidateItemSet
+Mar 12, 2015 1:20:34 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is2 not equal1CandidateItemSet
+Mar 12, 2015 1:20:34 AM com.data_mining.logic.CommonLogics compareSets
+INFO: No such Element exception
+Mar 12, 2015 1:20:34 AM com.data_mining.logic.CommonLogics compareSets
+INFO: No such Element exception
+Mar 12, 2015 1:20:34 AM com.data_mining.logic.CommonLogics compareSets
+INFO: No such Element exception
+Mar 12, 2015 1:20:34 AM com.data_mining.logic.CommonLogics compareSets
+INFO: No such Element exception
+Mar 12, 2015 1:20:34 AM com.data_mining.logic.CommonLogics compareSets
+INFO: No such Element exception
+Mar 12, 2015 1:20:35 AM com.data_mining.logic.CommonLogics compareSets
+INFO: No such Element exception
+Mar 12, 2015 1:20:35 AM com.data_mining.logic.CommonLogics compareSets
+INFO: No such Element exception
+Mar 12, 2015 1:20:35 AM com.data_mining.logic.CommonLogics compareSets
+INFO: No such Element exception
+Mar 12, 2015 1:20:35 AM com.data_mining.logic.AssociationLogics generateFrequentSetForK
+INFO: Generating CK
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is3 not equal2CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is3 not equal2CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is3 not equal2CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is3 not equal2CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is3 not equal2CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is3 not equal2CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is3 not equal2CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is3 not equal2CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is3 not equal2CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is3 not equal2CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is3 not equal2CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is3 not equal2CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is3 not equal2CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is3 not equal2CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is3 not equal2CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is3 not equal2CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.logic.CommonLogics compareSets
+INFO: No such Element exception
+Mar 12, 2015 1:20:35 AM com.data_mining.logic.CommonLogics compareSets
+INFO: No such Element exception
+Mar 12, 2015 1:20:35 AM com.data_mining.logic.CommonLogics compareSets
+INFO: No such Element exception
+Mar 12, 2015 1:20:35 AM com.data_mining.logic.CommonLogics compareSets
+INFO: No such Element exception
+Mar 12, 2015 1:20:35 AM com.data_mining.logic.CommonLogics compareSets
+INFO: No such Element exception
+Mar 12, 2015 1:20:35 AM com.data_mining.logic.CommonLogics compareSets
+INFO: No such Element exception
+Mar 12, 2015 1:20:35 AM com.data_mining.logic.CommonLogics compareSets
+INFO: No such Element exception
+Mar 12, 2015 1:20:35 AM com.data_mining.logic.CommonLogics compareSets
+INFO: No such Element exception
+Mar 12, 2015 1:20:35 AM com.data_mining.logic.AssociationLogics generateFrequentSetForK
+INFO: Generating CK
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is4 not equal3CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is4 not equal3CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is4 not equal3CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is4 not equal3CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is4 not equal3CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is4 not equal3CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is4 not equal3CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is4 not equal3CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is4 not equal3CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is4 not equal3CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is4 not equal3CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is4 not equal3CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.logic.AssociationLogics ruleGeneration
+INFO: Generating H1
+Mar 12, 2015 1:20:35 AM com.data_mining.logic.AssociationLogics ruleGeneration
+INFO: Generating H1
+Mar 12, 2015 1:20:35 AM com.data_mining.logic.AssociationLogics ruleGeneration
+INFO: Generating H1
+Mar 12, 2015 1:20:35 AM com.data_mining.logic.AssociationLogics ruleGeneration
+INFO: Generating H1
+Mar 12, 2015 1:20:35 AM com.data_mining.logic.AssociationLogics ruleGeneration
+INFO: Generating H1
+Mar 12, 2015 1:20:35 AM com.data_mining.logic.AssociationLogics ruleGeneration
+INFO: Generating H1
+Mar 12, 2015 1:20:35 AM com.data_mining.logic.AssociationLogics ruleGeneration
+INFO: Generating H1
+Mar 12, 2015 1:20:35 AM com.data_mining.logic.AssociationLogics ruleGeneration
+INFO: Generating H1
+Mar 12, 2015 1:20:35 AM com.data_mining.logic.AssociationLogics ruleGeneration
+INFO: Generating H1
+Mar 12, 2015 1:20:35 AM com.data_mining.logic.AssociationLogics apGenerateRules
+INFO: Generating H2
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is2 not equal1CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is2 not equal1CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is2 not equal1CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.logic.AssociationLogics ruleGeneration
+INFO: Generating H1
+Mar 12, 2015 1:20:35 AM com.data_mining.logic.AssociationLogics apGenerateRules
+INFO: Generating H2
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is2 not equal1CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is2 not equal1CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is2 not equal1CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.logic.AssociationLogics ruleGeneration
+INFO: Generating H1
+Mar 12, 2015 1:20:35 AM com.data_mining.logic.AssociationLogics apGenerateRules
+INFO: Generating H2
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is2 not equal1CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is2 not equal1CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is2 not equal1CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.logic.AssociationLogics ruleGeneration
+INFO: Generating H1
+Mar 12, 2015 1:20:35 AM com.data_mining.logic.AssociationLogics apGenerateRules
+INFO: Generating H2
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is2 not equal1CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is2 not equal1CandidateItemSet
+Mar 12, 2015 1:20:35 AM com.data_mining.model.association.FrequentAndCandidateItemSet addItem
+INFO: Set number is2 not equal1CandidateItemSet
