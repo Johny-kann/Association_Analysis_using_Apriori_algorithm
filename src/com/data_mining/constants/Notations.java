@@ -38,6 +38,8 @@ public class Notations {
 	public static String F1 = "F1*Fk-1";
 	public static String GENERATION_TYPE = FK_1;
 	
+	public static boolean ALG_MOD = true;
+	
 	public static final String LOG_FOR_ACCURACY = "ACC_LOG";
 	
 	public static final String LOG_FOR_TRAINING = "TRAIN_LOG";

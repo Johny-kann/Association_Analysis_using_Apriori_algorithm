@@ -20,6 +20,12 @@ import com.data_mining.model.association.TransactionTable;
 import com.data_mining.model.association.Transactions;
 import com.data_mining.view.console.Outputs;
 
+/**
+ * Implements functions related to forming association Rules
+ * @author Janakiraman
+ * 
+ *
+ */
 public class AssociationLogics {
 
 	public FrequentAndCandidateItemSet generateFrequentSetForK(TransactionTable table,Double minSupport,int k,FrequentAndCandidateItemSet fKminus1,StringBuffer str)
@@ -110,8 +116,9 @@ public class AssociationLogics {
 				}
 			}
 			
+			
 			listAssocs.addAllRules(apGenerateRules(fk, 
-						aprioriGenerationFkMinus1(HmPlus1, table),
+					aprioriGeneration(Hm, freq1, table, Notations.GENERATION_TYPE),
 					freq1, table, minConf));
 			
 		}
@@ -119,6 +126,82 @@ public class AssociationLogics {
 		return listAssocs;
 	}
 	
+	/**
+	 * Generates Rules
+	 * @param fk
+	 * @param Hm
+	 * @param freq1
+	 * @param table
+	 * @param minConf
+	 * @return
+	 */
+	public AssociationList apGenerateRulesModified(Set<String> fk,FrequentAndCandidateItemSet Hm, FrequentAndCandidateItemSet freq1,TransactionTable table,double minConf)
+	{
+		int k= fk.size();
+		
+		Set<String> temp = new TreeSet<String>();
+		CommonLogics cl = new CommonLogics();
+		cl.copySet(fk, temp);
+		
+		int m = Hm.getSetNumber();
+		AssociationList listAssocs = new AssociationList();
+		
+		
+		if(k > m)
+		{
+			TrainingLog.mainLogs.info("Generating H"+(int)(m+1));
+		
+		
+			FrequentAndCandidateItemSet HmPlus1 = 
+					Hm;
+		//				aprioriGenerationFkMinus1(Hm, table);
+		//				aprioriGeneration(Hm, freq1, table, Notations.GENERATION_TYPE);
+	
+			double conf;
+		
+			int i=0;
+			
+//			List<Integer> listCounts = HmPlus1.getCount();
+			ListIterator<Integer> listcounts = HmPlus1.getCount().listIterator();
+			
+			for(ListIterator<Set<String>> list = HmPlus1.getItems().listIterator();
+					list.hasNext()&&listcounts.hasNext();i++)
+			{
+				Set<String> hmPlus1 = list.next();
+				Integer count = listcounts.next();
+				
+				conf = getConfidence(table, temp, hmPlus1);
+				
+				if(conf>=minConf)
+				{
+					Set<String> temp2 = new TreeSet<String>();
+					cl.copySet(temp, temp2);
+					
+					temp2.removeAll(hmPlus1);
+				
+					AssociationRule asr = new AssociationRule(temp2, hmPlus1, conf);
+			
+					listAssocs.addRule(
+								asr
+							);
+				}
+				else
+				{
+					listcounts.remove();
+					list.remove();
+				
+				}
+			}
+			
+			listAssocs.addAllRules(apGenerateRulesModified(fk, 
+					aprioriGeneration(Hm, freq1, table, Notations.GENERATION_TYPE),
+					freq1, table, minConf));
+			
+		}
+		
+		return listAssocs;
+	}
+
 	
 	public AssociationList ruleGeneration(FrequentAndCandidateItemSet result,TransactionTable table,double minconf,double minSupport)
 	{
@@ -137,7 +220,15 @@ public class AssociationLogics {
 			FrequentAndCandidateItemSet H1 = oneItemConsequentSet(fk, table);
 	
 			TrainingLog.mainLogs.info("Generating H1");
-			list.addAllRules(apGenerateRules(fk, H1,freq1, table, minconf));
+				
+			if(Notations.ALG_MOD)
+			{
+				list.addAllRules(apGenerateRulesModified(fk, H1,freq1, table, minconf));	
+			}
+			else
+			{
+				list.addAllRules(apGenerateRules(fk, H1,freq1, table, minconf));
+			}
 			}
 		}
 		

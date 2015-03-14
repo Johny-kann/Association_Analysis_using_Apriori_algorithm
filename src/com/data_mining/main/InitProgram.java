@@ -4,9 +4,11 @@ import com.data_mining.controller.MainController;
 import com.data_mining.logic.CommonLogics;
 
 
-public class InitProgram {
+public class InitProgram 
+{
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		
 	CommonLogics.assignInitValues(args);
 		
@@ -15,5 +17,5 @@ public class InitProgram {
 	mc.start();
 	
 	}
-
+	
 }

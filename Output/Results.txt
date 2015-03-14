@@ -1,28 +1,16 @@
-Generation By Fk-1*Fk-1
+Generation By F1*Fk-1
 k=1
 [beer] 3
 [bread] 4
-[cola] 2
 [diapers] 4
 [milk] 4
 k=2
-Number of candidates before pruning 10
-Number of candidates after pruning 8
-[beer, bread] 2
+Number of candidates before pruning 6
+Number of candidates after pruning 4
 [beer, diapers] 3
-[beer, milk] 2
 [bread, diapers] 3
 [bread, milk] 3
-[cola, diapers] 2
-[cola, milk] 2
 [diapers, milk] 3
 k=3
-Number of candidates before pruning 10
-Number of candidates after pruning 4
-[beer, bread, diapers] 2
-[beer, diapers, milk] 2
-[bread, diapers, milk] 2
-[cola, diapers, milk] 2
-k=4
-Number of candidates before pruning 0
+Number of candidates before pruning 1
 Number of candidates after pruning 0

@@ -8,32 +8,19 @@ bread		milk		diapers		beer		eggs		cola
 Frequent Item Sets
 [beer] 3
 [bread] 4
-[cola] 2
 [diapers] 4
 [milk] 4
-[beer, bread] 2
 [beer, diapers] 3
-[beer, milk] 2
 [bread, diapers] 3
 [bread, milk] 3
-[cola, diapers] 2
-[cola, milk] 2
 [diapers, milk] 3
-[beer, bread, diapers] 2
-[beer, diapers, milk] 2
-[bread, diapers, milk] 2
-[cola, diapers, milk] 2
 
 Association Rules
-[diapers]-->[beer, bread]	confidence  0.5
-[bread]-->[beer, diapers]	confidence  0.5
-[beer]-->[bread, diapers]	confidence  0.6666666666666666
-[milk]-->[beer, diapers]	confidence  0.5
-[diapers]-->[beer, milk]	confidence  0.5
-[beer]-->[diapers, milk]	confidence  0.6666666666666666
-[milk]-->[bread, diapers]	confidence  0.5
-[diapers]-->[bread, milk]	confidence  0.5
-[bread]-->[diapers, milk]	confidence  0.5
-[milk]-->[cola, diapers]	confidence  0.5
-[diapers]-->[cola, milk]	confidence  0.5
-[cola]-->[diapers, milk]	confidence  1.0
+[diapers]-->[beer]	confidence  0.75
+[beer]-->[diapers]	confidence  1.0
+[diapers]-->[bread]	confidence  0.75
+[bread]-->[diapers]	confidence  0.75
+[milk]-->[bread]	confidence  0.75
+[bread]-->[milk]	confidence  0.75
+[milk]-->[diapers]	confidence  0.75
+[diapers]-->[milk]	confidence  0.75

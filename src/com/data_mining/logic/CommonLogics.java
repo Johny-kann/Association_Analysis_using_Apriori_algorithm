@@ -60,6 +60,19 @@ public class CommonLogics {
 				Notations.GENERATION_TYPE = Notations.FK_1;
 			}
 		}
+		
+		else if(str.contains("algorithm"))
+		{
+			if(str.substring(10,str.length()).equals("original"))
+			{
+				Notations.ALG_MOD = false;
+			}
+			else
+			{
+				Notations.ALG_MOD = true;
+			}
+		}
+		
 		}
 		new TrainingLog();
 		
