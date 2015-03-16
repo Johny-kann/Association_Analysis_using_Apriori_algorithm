@@ -1,0 +1,40 @@
+young		pre-presbyopic		presbyopic		myope		hypermetrope		not-astigmatic		astigmatic		reduced-tear		normal-tear		hard-contact-lens		soft-contact-lens		no-contact-lens		
+1		0		0		1		0		1		0		1		0		0		0		1		
+1		0		0		1		0		1		0		0		1		0		1		0		
+1		0		0		1		0		0		1		1		0		0		0		1		
+1		0		0		1		0		0		1		0		1		1		0		0		
+1		0		0		0		1		1		0		1		0		0		0		1		
+1		0		0		0		1		1		0		0		1		0		1		0		
+1		0		0		0		1		0		1		1		0		0		0		1		
+1		0		0		0		1		0		1		0		1		1		0		0		
+0		1		0		1		0		1		0		1		0		0		0		1		
+0		1		0		1		0		1		0		0		1		0		1		0		
+0		1		0		1		0		0		1		1		0		0		0		1		
+0		1		0		1		0		0		1		0		1		1		0		0		
+0		1		0		0		1		1		0		1		0		0		0		1		
+0		1		0		0		1		1		0		0		1		0		1		0		
+0		1		0		0		1		0		1		1		0		0		0		1		
+0		1		0		0		1		0		1		0		1		0		0		1		
+0		0		1		1		0		1		0		1		0		0		0		1		
+0		0		1		1		0		1		0		0		1		0		0		1		
+0		0		1		1		0		0		1		1		0		0		0		1		
+0		0		1		1		0		0		1		0		1		1		0		0		
+0		0		1		0		1		1		0		1		0		0		0		1		
+0		0		1		0		1		1		0		0		1		0		1		0		
+0		0		1		0		1		0		1		1		0		0		0		1		
+0		0		1		0		1		0		1		0		1		0		0		1		
+
+Support Threshold is 0.5
+Frequent Item Sets
+[astigmatic] 12
+[hypermetrope] 12
+[myope] 12
+[no-contact-lens] 15
+[normal-tear] 12
+[not-astigmatic] 12
+[reduced-tear] 12
+[no-contact-lens, reduced-tear] 12
+
+Association Rules
+[reduced-tear]-->[no-contact-lens]	confidence  1.0
+[no-contact-lens]-->[reduced-tear]	confidence  0.8

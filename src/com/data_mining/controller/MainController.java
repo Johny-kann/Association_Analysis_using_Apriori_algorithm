@@ -31,7 +31,7 @@ public class MainController {
 	public MainController()
 	{
 		PropertiesConfig.assignInputFiles();
-	
+		
 	}
 	
 	
@@ -55,6 +55,8 @@ public class MainController {
 	
 		StringBuffer stb = new StringBuffer();
 		stb.append(new Outputs().outPutTransaction(transTable));
+		stb.append(System.lineSeparator());
+		stb.append("Support Threshold is "+ValueConstants.MIN_SUPPORT);
 		stb.append(System.lineSeparator());
 		stb.append("Frequent Item Sets");
 		stb.append(System.lineSeparator());

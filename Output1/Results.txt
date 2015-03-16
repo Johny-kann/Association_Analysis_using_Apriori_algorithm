@@ -1,0 +1,16 @@
+Generation By F1*Fk-1
+k=1
+[astigmatic] 12
+[hypermetrope] 12
+[myope] 12
+[no-contact-lens] 15
+[normal-tear] 12
+[not-astigmatic] 12
+[reduced-tear] 12
+k=2
+Number of candidates before pruning 21
+Number of candidates after pruning 1
+[no-contact-lens, reduced-tear] 12
+k=3
+Number of candidates before pruning 0
+Number of candidates after pruning 0

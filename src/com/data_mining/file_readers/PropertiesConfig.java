@@ -21,11 +21,11 @@ public class PropertiesConfig {
            
         //   prop.load(is);
        
-           CommonLogics.settingFiles(prop.getProperty("Attributes"), FilesList.ATTRIBUTES_FILES);
-           CommonLogics.settingFiles(prop.getProperty("Train-records"), FilesList.RECORD_FILES);
+           FilesList.ATTRIBUTES_FILES =  CommonLogics.settingFiles(prop.getProperty("Attributes"), FilesList.ATTRIBUTES_FILES);
+           FilesList.RECORD_FILES = CommonLogics.settingFiles(prop.getProperty("Train-records"), FilesList.RECORD_FILES);
                     
-           CommonLogics.settingFiles(prop.getProperty("Out-Result"), FilesList.WRITE_RESULT);
-           CommonLogics.settingFiles(prop.getProperty("Out-Items-Rules"), FilesList.WRITE_ITEMSET);
+           FilesList.WRITE_RESULT = CommonLogics.settingFiles(prop.getProperty("Out-Result"), FilesList.WRITE_RESULT);
+           FilesList.WRITE_ITEMSET = CommonLogics.settingFiles(prop.getProperty("Out-Items-Rules"), FilesList.WRITE_ITEMSET);
             
             
         } catch (FileNotFoundException e)
